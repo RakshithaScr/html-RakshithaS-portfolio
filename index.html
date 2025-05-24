@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>S Rakshitha - Portfolio</title>
+<style>
+  /* Reset and base */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0f2027;  
+    background: linear-gradient(135deg, #2c5364, #203a43, #0f2027);
+    color: #e0e6f0;
+    scroll-behavior: smooth;
+  }
+  a {
+    color: #64ffda;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  header {
+    text-align: center;
+    padding: 3rem 1rem 2rem;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #64ffda;
+  }
+  .typewriter-text {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    min-height: 1.5rem;
+    color: #a0becd;
+    font-style: italic;
+  }
+  nav {
+    position: sticky;
+    top: 0;
+    background: rgba(15, 32, 39, 0.85);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    z-index: 100;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+  }
+  nav a {
+    margin: 0 1.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  nav a.active {
+    border-bottom: 2px solid #64ffda;
+    padding-bottom: 4px;
+  }
+  main {
+    max-width: 900px;
+    margin: 2rem auto 4rem;
+    padding: 0 1rem;
+  }
+  section {
+    margin-bottom: 4rem;
+  }
+  section h2 {
+    color: #64ffda;
+    font-weight: 700;
+    font-size: 2rem;
+    border-bottom: 3px solid #64ffda;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+  }
+  p, ul {
+    line-height: 1.6;
+  }
+  ul.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  ul.skills-list li {
+    background: rgba(100,255,218,0.15);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0,255,218,0.2);
+    font-weight: 600;
+    color: #64ffda;
+  }
+  /* Projects */
+  .project {
+    background: rgba(100,255,218,0.1);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: inset 0 0 30px rgb(100 255 218 / 0.15);
+  }
+  .project h3 {
+    margin-top: 0;
+    color: #a0e7ff;
+  }
+  .project p {
+    margin-bottom: 0.5rem;
+  }
+  .tech-list {
+    font-size: 0.9rem;
+    color: #84d2f6;
+    font-style: italic;
+  }
+  /* Certificates Carousel */
+  #certificates {
+    position: relative;
+  }
+  .carousel-container {
+    overflow-x: auto;
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    scroll-behavior: smooth;
+  }
+  .certificate {
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    min-width: 250px;
+    padding: 1rem 1.5rem;
+    box-shadow: 0 0 15px rgb(100 255 218 / 0.3);
+    flex-shrink: 0;
+  }
+  .certificate h4 {
+    margin-top: 0;
+    color: #7ee8fa;
+  }
+  /* Contact */
+  #contact p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+  }
+  #contact a {
+    font-weight: 700;
+    color: #64ffda;
+  }
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 0.9rem;
+    color: #64ffda;
+    border-top: 1px solid rgba(100,255,218,0.4);
+  }
+  @media (max-width: 600px) {
+    ul.skills-list {
+      justify-content: center;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>S Rakshitha</h1>
+  <div class="typewriter-text" id="typewriter"></div>
+</header>
+<nav>
+  <a href="#about" class="active">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#certificates">Certificates</a>
+  <a href="#hobbies">Hobbies</a>
+  <a href="#contact">Contact</a>
+</nav>
+<main>
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hello! I'm S Rakshitha, an aspiring Electronics and Communication Engineering student currently in my third year. I am passionate about leveraging my technical skills in electronics and embedded systems to contribute to innovative projects. I am actively seeking internship opportunities that will allow me to gain practical experience and further develop my expertise in a dynamic professional environment.
+
+I thrive on challenges and enjoy collaborating with others to create impactful solutions. My goal is to engage in pioneering projects that push the boundaries of technology while continuously learning and growing in my field.</p>
+  <p><strong>Location:</strong> Bengaluru, India</p>
+  <p><strong>Contact:</strong> +91 7795714622 | <a href="mailto:rakshithasrc22@gmail.com">rakshithasrc22@gmail.com</a></p>
+  <p>Connect on <a href="https://www.linkedin.com/in/s-rakshitha21" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+</section>
+<section id="skills">
+  <h2> Technical Skills</h2>
+  <ul class="skills-list">
+    <li>Embedded Systems and IoT</li>
+    <li>Python</li>
+    <li>C/C++ (Basics)</li>
+    <li>Java (Basics)</li>
+    <li>VLSI using Cadence Tools (Basics)</li>
+    <li>Web Development (In Progress)</li>
+   </ul>
+   <h2> Soft Skills</h2>
+   <ul class="skills-list">
+    <li>Adaptability</li>
+    <li>Teamwork</li>
+    <li>Creativity</li>
+    <li>Time Management</li>
+    <li>Leadership</li>
+  </ul>
+</section>
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="project">
+    <h3>Hand Gesture Control Video Player System</h3>
+    <p>Developed using Python, OpenCV, embedded systems, and IoT for hands-free video playback control.</p>
+    <p class="tech-list">Technologies: Python, OpenCV, Arduino UNO, Sensors, Embedded C</p>
+  </div>
+  <div class="project">
+    <h3>Security Door Buzzer System</h3>
+    <p>Created a buzzer system that activates upon unauthorized access using embedded systems.</p>
+    <p class="tech-list">Technologies: Arduino UNO, Sensors, Actuators, Embedded C</p>
+  </div>
+  <div class="project">
+    <h3>Array Multiplier [4X4 Bit]</h3>
+    <p>Designed and implemented using Verilog HDL in Model Sim for efficient multiplication of arrays.</p>
+    <p class="tech-list">Technologies: Verilog HDL, FPGA Simulation</p>
+  </div>
+  <div class="project">
+    <h3>Image Steganography using LSB-DWT for secure communication (In Progress)</h3>
+    <p>Developing in VS code using Python programming Language for secure communication.</p>
+    <p class="tech-list">Technologies: Python, LSB and DWT Techniques</p>
+  </div>
+</section>
+<section id="certificates">
+  <h2>Certificates</h2>
+  <div class="carousel-container" aria-label="Certificates Carousel" tabindex="0">
+    <div class="certificate">
+      <h4><a href="./python.png">Basics of Python</a></h4>
+      <p>Infosys Springboard</p>
+    </div>
+    <div class="certificate">
+      <h4><a href="./IoT.png">Internet of Things Foundation Certification</a></h4>
+      <p>Infosys Springboard</p>
+    </div>
+    <div class="certificate">
+      <h4><a href="./TCS iON.png">TCS iON Career Edge Young Professional</a></h4>
+      <p>TCS iON</p>
+    </div>
+    <div class="certificate">
+      <h4><a href="./Volunteering .png">Volunteering Certificate</a></h4>
+      <p>Youth for Seva</p>
+    </div>
+  </div>
+</section>
+<section id="hobbies">
+  <h2>Hobbies</h2>
+  <ul class="skills-list">
+    <li>Cycling</li>
+    <li>Playing Badminton</li>
+    <li>Outing with Friends</li>
+    <li>Crafting</li>
+    <li>Drawing</li>
+    <li>Gardening</li>
+  </ul>
+</section>
+<section id="contact">
+<h2>Contact</h2>
+<p>If you'd like to reach out for internships, jobs, or collaborations, feel free to contact me:</p>
+<p>+91 7795714622 | <a href="mailto:rakshithasrc22@gmail.com">rakshithasrc22@gmail.com</a></p>
+</section>
+</main>
+<footer>
+  &copy; 2025 S Rakshitha 
+</footer>
+<script>
+  // Typewriter effect
+  const typewriterText = "Aspiring Electronics and Communication Engineering Student";
+  const typewriterElement = document.getElementById('typewriter');
+  let idx = 0;
+  function typeWriter() {
+    if (idx < typewriterText.length) {
+      typewriterElement.textContent += typewriterText.charAt(idx);
+      idx++;
+      setTimeout(typeWriter, 80);
+    }
+  }
+  typeWriter();
+
+  // Smooth nav link active highlight on scroll
+  const navLinks = document.querySelectorAll('nav a');
+  const sections = [...navLinks].map(link => document.querySelector(link.getAttribute('href')));
+  function changeActiveNav() {
+    let scrollPos = window.scrollY || window.pageYOffset;
+    sections.forEach((section, index) => {
+      if (
+        scrollPos >= section.offsetTop - 80 &&
+        scrollPos < section.offsetTop + section.offsetHeight - 80
+      ) {
+        navLinks.forEach(nav => nav.classList.remove('active'));
+        navLinks[index].classList.add('active');
+      }
+    });
+  }
+  window.addEventListener('scroll', changeActiveNav);
+</script>
+</body>
+</html>
