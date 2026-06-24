@@ -1,18 +1,24 @@
 # S Rakshitha - Portfolio
 
-Welcome to my portfolio! I am an aspiring Electronics and Communication Engineering student with a passion for technology and innovation.
+Welcome to my portfolio! I am an Electronics and Communication Engineering graduate with a passion for technology and innovation.
 
 ## About Me
-I am currently in my third year of study and actively seeking internship opportunities to gain practical experience in electronics and embedded systems.
+I am Rakshitha, with hands-on experience in software development, embedded systems, testing and system-level debugging through a DRDO internship and technical projects. Proficient in C, C++, and Python with a solid understanding of OS, Linux, and networking protocols. Eager to apply my problem- solving skills and contribute to a team.
 
 ## Skills
 - **Technical Skills**:
   - Embedded Systems and IoT
   - Python
-  - C/C++ (Basics)
+  - C/C++ 
+  - Embedded C
+  - RTOS
+  - Computer Networks
+  - Communication Protocols- I2C, SPI, UART
+  - MATLAB
+  - AI/ ML
   - Java (Basics)
-  - VLSI using Cadence Tools (Basics)
-  - Web Development (In Progress)
+  - HTML/ CSS
+
 
 - **Soft Skills**:
   - Adaptability
